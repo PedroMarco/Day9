@@ -20,7 +20,7 @@ def main():
   
 # Count each letter in the string 
 def countLetters(line, counts): 
-    for ch in line:
+    for ch in line:  ##  ch is just a varaible (placeholder) to input the value of the iteration
         if ch.isalpha():
             counts[ord(ch) - ord('a')] += 1
 

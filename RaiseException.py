@@ -6,6 +6,6 @@ def getArea(radius):
 
 try:
     print(getArea(5))
-    print(getArea(-5))
+    print(getArea(-5)) # This second value is wrong
 except RuntimeError:
     print("Invalid radius")

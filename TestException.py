@@ -8,8 +8,10 @@ def main():
         print("Division by zero!")
     except SyntaxError:
         print("A comma may be missing in the input")
-    except:
-        print("Something wrong in the input")
+#    except:
+#        print("Something wrong in the input")
+    except NameError:
+        print('Those are not numbers dude')
     else:
         print("No exceptions")
     finally:
